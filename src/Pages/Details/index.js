@@ -1,14 +1,14 @@
-import { DetailsContainer } from '../../Components/DetailsContainer';
+import { MainContainer } from '../../Components/MainContainer';
 import { OpportunityCard } from '../../Components/OpportunityCard';
 import { UserCard } from '../../Components/UserCard';
 
 export const Details = () => {
   return (
-    <DetailsContainer>
+    <MainContainer>
       <UserCard />
       <OpportunityCard />
       <OpportunityCard />
       <OpportunityCard />
-    </DetailsContainer>
+    </MainContainer>
   );
 };

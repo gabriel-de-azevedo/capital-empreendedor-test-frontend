@@ -1,14 +1,15 @@
-import { DashboardContainer } from '../../Components/DashboardContainer';
+import { MainContainer } from '../../Components/MainContainer';
 import { UserCard } from '../../Components/UserCard';
 
 export const Dashboard = () => {
   return (
-    <DashboardContainer>
+    <MainContainer>
       <UserCard />
       <UserCard />
       <UserCard />
       <UserCard />
       <UserCard />
-    </DashboardContainer>
+      <UserCard />
+    </MainContainer>
   );
 };
