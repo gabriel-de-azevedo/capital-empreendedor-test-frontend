@@ -13,7 +13,7 @@ export const Dashboard = () => {
   }, []);
 
   return (
-    <MainContainer>
+    <MainContainer dashboardVariant>
       {users &&
         users.map((user, index) => <UserCard user={user} key={index} />)}
     </MainContainer>

@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 
-export const MainContainer = ({ children }) => {
+export const MainContainer = ({ children, dashboardVariant }) => {
   return (
     <Center>
       <Container
@@ -35,9 +35,18 @@ export const MainContainer = ({ children }) => {
             </Heading>
 
             <Button maxW="240px" colorScheme="blackAlpha" alignSelf="center">
-              <LinkOverlay as={RouterLink} to="/">
-                Back to Dashboard
-              </LinkOverlay>
+              {dashboardVariant ? (
+                <LinkOverlay
+                  href="https://github.com/gabriel-de-azevedo/capital-empreendedor-test-frontend"
+                  isExternal
+                >
+                  See Repository
+                </LinkOverlay>
+              ) : (
+                <LinkOverlay as={RouterLink} to="/">
+                  Back to Dashboard
+                </LinkOverlay>
+              )}
             </Button>
           </Stack>
         </Center>
