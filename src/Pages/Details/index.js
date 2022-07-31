@@ -15,7 +15,7 @@ export const Details = () => {
       setUser(response.data.user);
       setOpportunities(response.data.opportunities);
     });
-  }, []);
+  }, [email]);
 
   return (
     <MainContainer>
@@ -23,6 +23,7 @@ export const Details = () => {
       {opportunities &&
         opportunities.map((opportunity, index) => (
           <OpportunityCard
+            email={email}
             opportunity={opportunity}
             key={index}
             setOpportunities={setOpportunities}
