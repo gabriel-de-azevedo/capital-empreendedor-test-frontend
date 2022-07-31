@@ -1,7 +1,7 @@
 import { Box, Button, Text } from '@chakra-ui/react';
 import { useToast } from '@chakra-ui/react';
 
-export const OpportunityCard = () => {
+export const OpportunityCard = ({ opportunity }) => {
   const toast = useToast();
 
   const handleToast = () =>
@@ -22,10 +22,10 @@ export const OpportunityCard = () => {
       w="240px"
       borderRadius="10px"
     >
-      <Text>Institution 1</Text>
-      <Text>50000</Text>
-      <Text>0.045</Text>
-      <Text>60</Text>
+      <Text>{opportunity.name}</Text>
+      <Text>{opportunity.limit}</Text>
+      <Text>{opportunity.interest}</Text>
+      <Text>{opportunity.term}</Text>
       <Button onClick={handleToast}>Active</Button>
     </Box>
   );

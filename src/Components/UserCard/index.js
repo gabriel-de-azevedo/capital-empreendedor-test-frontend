@@ -1,8 +1,9 @@
-import { Box, Text } from '@chakra-ui/react';
+import { Link as RouterLink } from 'react-router-dom';
+import { LinkBox, LinkOverlay, Text } from '@chakra-ui/react';
 
-export const UserCard = () => {
+export const UserCard = ({ user }) => {
   return (
-    <Box
+    <LinkBox
       bgColor="white"
       shadow="lg"
       borderWidth="1px"
@@ -10,10 +11,12 @@ export const UserCard = () => {
       w="240px"
       borderRadius="10px"
     >
-      <Text>Cliente 1</Text>
-      <Text>cliente1@example.com</Text>
-      <Text>(19) 99999-9999</Text>
-      <Text>1000000</Text>
-    </Box>
+      <LinkOverlay as={RouterLink} to={`/details/${user.email}`}>
+        <Text>{user.name}</Text>
+        <Text>{user.email}</Text>
+        <Text>{user.phone}</Text>
+        <Text>{user.revenue}</Text>
+      </LinkOverlay>
+    </LinkBox>
   );
 };
