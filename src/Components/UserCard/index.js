@@ -11,7 +11,7 @@ export const UserCard = ({ user }) => {
       w="240px"
       borderRadius="10px"
     >
-      <LinkOverlay as={RouterLink} to={`/details/${user.email}`}>
+      <LinkOverlay as={RouterLink} to={`/clients/${user.email}`}>
         <Text>{user.name}</Text>
         <Text>{user.email}</Text>
         <Text>{user.phone}</Text>

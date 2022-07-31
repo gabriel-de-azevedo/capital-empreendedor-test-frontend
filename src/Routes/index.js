@@ -6,7 +6,7 @@ export const Routing = () => {
   return (
     <Routes>
       <Route index element={<Dashboard />} />
-      <Route path="/details">
+      <Route path="/clients">
         <Route path=":email" element={<Details />} />
       </Route>
     </Routes>
