@@ -1,8 +1,6 @@
 import { Link as RouterLink } from 'react-router-dom';
 import {
-  Box,
   Divider,
-  Flex,
   Heading,
   LinkBox,
   LinkOverlay,
