@@ -2,6 +2,10 @@ import { FaCompass } from 'react-icons/fa';
 import { Link as RouterLink } from 'react-router-dom';
 import { Flex, Center, Icon, Link } from '@chakra-ui/react';
 
+/**
+ * Renders a simple header element containing a few navigation links
+ */
+
 export const Header = () => {
   return (
     <Center>

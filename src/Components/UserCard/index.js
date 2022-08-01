@@ -8,6 +8,11 @@ import {
   Text,
 } from '@chakra-ui/react';
 
+/**
+ * Receives the user data as a prop and renders it as text
+ * Redirects to "/details/:email" based on the user email
+ */
+
 export const UserCard = ({ user }) => {
   return (
     <LinkBox

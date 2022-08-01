@@ -9,6 +9,12 @@ import {
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 
+/**
+ * Renders the background colors and a bit of text on the very top
+ * Central button redirects to either the main repository or the Dashboard
+ * It's children are rendered inside a responsive SimpleGrid
+ */
+
 export const MainContainer = ({ children, dashboardVariant }) => {
   return (
     <Center>
