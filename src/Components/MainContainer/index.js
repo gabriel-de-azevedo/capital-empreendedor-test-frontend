@@ -20,7 +20,7 @@ export const MainContainer = ({ children, dashboardVariant }) => {
         <Center>
           <Stack>
             <Heading as="h3" pt={16} color="white" textAlign="center">
-              Capital List
+              Capital Cards
             </Heading>
             <Heading
               as="h4"
