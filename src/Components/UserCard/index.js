@@ -21,7 +21,9 @@ export const UserCard = ({ user }) => {
     >
       <LinkOverlay as={RouterLink} to={`/clients/${user.email}`}>
         <Stack>
-          <Heading size="md">{user.name}</Heading>
+          <Heading size="md" as="h4">
+            {user.name}
+          </Heading>
           <Text>{user.email}</Text>
           <Divider />
           <Text>Revenue</Text>

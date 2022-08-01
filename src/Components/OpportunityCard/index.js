@@ -1,4 +1,13 @@
-import { Badge, Box, Button, Text } from '@chakra-ui/react';
+import {
+  Badge,
+  Box,
+  Button,
+  Divider,
+  Heading,
+  HStack,
+  Stack,
+  Text,
+} from '@chakra-ui/react';
 import { useToast } from '@chakra-ui/react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
@@ -31,17 +40,31 @@ export const OpportunityCard = ({ opportunity, setOpportunities }) => {
       h="272px"
       w="240px"
       borderRadius="10px"
+      p={6}
     >
-      {opportunity.isActive ? (
-        <Badge colorScheme="green">Active</Badge>
-      ) : (
-        <Badge colorScheme="red">Innactive</Badge>
-      )}
-      <Text>{opportunity.name}</Text>
-      <Text>{opportunity.limit}</Text>
-      <Text>{opportunity.interest}</Text>
-      <Text>{opportunity.term}</Text>
-      <Button onClick={handleButton}>Change Status</Button>
+      <Stack>
+        <HStack>
+          <Heading size="md" as="h4">
+            {opportunity.name}
+          </Heading>
+          {opportunity.isActive ? (
+            <Badge colorScheme="green" fontSize={10}>
+              Active
+            </Badge>
+          ) : (
+            <Badge colorScheme="red" fontSize={10}>
+              Innactive
+            </Badge>
+          )}
+        </HStack>
+        <Text>{`R$ ${opportunity.limit},00 limit`}</Text>
+        <Divider />
+        <Text>{`${opportunity.interest}% interest rate`}</Text>
+        <Text>{`${opportunity.term}-month term`}</Text>
+        <Divider />
+        <Box h={3} />
+        <Button onClick={handleButton}>Change Status</Button>
+      </Stack>
     </Box>
   );
 };
