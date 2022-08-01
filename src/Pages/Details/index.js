@@ -23,10 +23,10 @@ export const Details = () => {
       {opportunities &&
         opportunities.map((opportunity, index) => (
           <OpportunityCard
-            email={email}
             opportunity={opportunity}
-            key={index}
             setOpportunities={setOpportunities}
+            key={index}
+            email={email}
           />
         ))}
     </MainContainer>
