@@ -1,5 +1,14 @@
 import { Link as RouterLink } from 'react-router-dom';
-import { LinkBox, LinkOverlay, Text } from '@chakra-ui/react';
+import {
+  Box,
+  Divider,
+  Flex,
+  Heading,
+  LinkBox,
+  LinkOverlay,
+  Stack,
+  Text,
+} from '@chakra-ui/react';
 
 export const UserCard = ({ user }) => {
   return (
@@ -10,12 +19,19 @@ export const UserCard = ({ user }) => {
       h="272px"
       w="240px"
       borderRadius="10px"
+      p={6}
     >
       <LinkOverlay as={RouterLink} to={`/clients/${user.email}`}>
-        <Text>{user.name}</Text>
-        <Text>{user.email}</Text>
-        <Text>{user.phone}</Text>
-        <Text>{user.revenue}</Text>
+        <Stack>
+          <Heading size="md">{user.name}</Heading>
+          <Text>{user.email}</Text>
+          <Divider />
+          <Text>Revenue</Text>
+          <Text>{`R$ ${user.revenue},00`}</Text>
+          <Divider />
+          <Text>Phone</Text>
+          <Text>{user.phone}</Text>
+        </Stack>
       </LinkOverlay>
     </LinkBox>
   );
