@@ -25,8 +25,8 @@ export const Details = () => {
           <OpportunityCard
             opportunity={opportunity}
             setOpportunities={setOpportunities}
-            key={index}
             email={email}
+            key={index}
           />
         ))}
     </MainContainer>
