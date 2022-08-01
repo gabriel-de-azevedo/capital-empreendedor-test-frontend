@@ -10,7 +10,7 @@ import {
 
 /**
  * Receives the user data as a prop and renders it as text
- * Redirects to "/details/:email" based on the user email
+ * Redirects to "/details/:user_email" based on the user email
  */
 
 export const UserCard = ({ user }) => {

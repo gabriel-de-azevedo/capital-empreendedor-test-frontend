@@ -21,13 +21,13 @@ import { useParams } from 'react-router-dom';
  */
 
 export const OpportunityCard = ({ opportunity, setOpportunities }) => {
-  const { email } = useParams();
+  const { user_email } = useParams();
   const toast = useToast();
 
   const handleButton = () =>
     axios
       .patch(
-        `http://localhost:4000/api/users/${email}/opportunities/${opportunity.name}`
+        `http://localhost:4000/api/users/${user_email}/opportunities/${opportunity.name}`
       )
       .then((response) => {
         setOpportunities(response.data.opportunities);

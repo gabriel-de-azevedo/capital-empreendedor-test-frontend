@@ -4,7 +4,7 @@ import { Details } from '../Pages/Details';
 
 /**
  * The index page ("/") contains our Dashboard
- * Details is rendered when we redirect the user to "/clients/:email"
+ * Details is rendered when we redirect the user to "/clients/:user_email"
  */
 
 export const Routing = () => {
@@ -12,7 +12,7 @@ export const Routing = () => {
     <Routes>
       <Route index element={<Dashboard />} />
       <Route path="/clients">
-        <Route path=":email" element={<Details />} />
+        <Route path=":user_email" element={<Details />} />
       </Route>
     </Routes>
   );
