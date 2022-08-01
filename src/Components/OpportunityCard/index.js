@@ -59,7 +59,7 @@ export const OpportunityCard = ({ opportunity, setOpportunities }) => {
         </HStack>
         <Text>{`R$ ${opportunity.limit},00 limit`}</Text>
         <Divider />
-        <Text>{`${opportunity.interest}% interest rate`}</Text>
+        <Text>{`${opportunity.interest} interest rate`}</Text>
         <Text>{`${opportunity.term}-month term`}</Text>
         <Divider />
         <Box h={3} />
