@@ -8,7 +8,7 @@ import { UserCard } from '../../Components/UserCard';
 /**
  * Uses the user_email on the URL to fetch all of it's user's data
  * The API returns the user's basic data and all of it's opportunities
- * Renders a single UserPage using the returned basic data
+ * Renders a single UserPage using the returned user data
  * And an OpportunityCard for each opportunity returned
  */
 
