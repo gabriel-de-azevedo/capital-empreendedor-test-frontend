@@ -9,7 +9,7 @@ executados localmente.
 
 Por conta disso, recomendo ler a
 [documentação da API](https://github.com/gabriel-de-azevedo/capital-empreendedor-test-backend)
-antes de prosseguir. Porém, o processo de execução é extremamente simples e será descrito logo abaixo.
+antes de prosseguir. Porém, o processo de execução é extremamente simples e será descrito abaixo.
 
 As páginas nessa aplicação foram desenvolvidas com o intuito de serem o mais simples possível, priorizando
 eficiência e rapidez na sua criação acima do design. Por isso a decisão de usar cards como o conceito central,
@@ -21,6 +21,14 @@ foi utilizada para acelerar o processo de estilização e garantir um design res
 Com o objetivo do teste técnico em mente, foram adicionados breves comentários em inglês em cada arquivo
 JavaScript descrevendo sua funcionalidade. A última parte dessa documentação também possui alguns comentários
 e observações sobre as decisões e comprometimentos feitos durante o processo de desenvolvimento.
+
+<br/>
+
+## Funcionalidades
+
+- Página inicial com cards listando todos os clientes
+- Página com cards listando todas as oportunidades de um cliente
+- Alteração do status de uma oportunidade de um cliente
 
 <br/>
 
@@ -44,7 +52,5 @@ utilizado para instalar suas dependências:
 O Front-End poderá ser acessado em http://localhost:3000, enquanto o Back-End utilizará http://localhost:4000.
 
 <br/>
-
-## Funcionalidades
 
 # Comentários e Observações
