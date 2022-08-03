@@ -22,7 +22,28 @@ Com o objetivo do teste técnico em mente, foram adicionados breves comentários
 JavaScript descrevendo sua funcionalidade. A última parte dessa documentação também possui alguns comentários
 e observações sobre as decisões e comprometimentos feitos durante o processo de desenvolvimento.
 
+<br/>
+
 ## Como Executar
+
+Primeiramente, o projeto
+[Capital Cards API](https://github.com/gabriel-de-azevedo/capital-empreendedor-test-backend)
+também precisa ser clonado localmente. É essencial que essa API seja iniciada antes do projeto React.
+
+Ambas as aplicações podem ser iniciadas usando um dos seguintes comandos, dependendo do gerenciador de pacote
+utilizado para instalar suas dependências:
+
+### `npm run start`
+
+### ou
+
+### `yarn start`
+
+<br/>
+
+O Front-End poderá ser acessado em http://localhost:3000, enquanto o Back-End utilizará http://localhost:4000.
+
+<br/>
 
 ## Funcionalidades
 
