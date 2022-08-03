@@ -54,3 +54,32 @@ O Front-End poderá ser acessado em http://localhost:3000, enquanto o Back-End u
 <br/>
 
 # Comentários e Observações
+
+Antes de tudo, recomendo ler os comentários que deixei na
+[documentação da API](https://github.com/gabriel-de-azevedo/capital-empreendedor-test-backend),
+porque lá falo um pouco sobre o processo de desenvolvimento como um todo. Porém, quanto ao Front-End,
+acabei precisando de menos tempo do que imaginava pra deixar tudo pronto.
+
+Como optei por fazer algo simples e usar o
+[Chakra UI](https://chakra-ui.com/)
+para a estilização, o que me restava era re-lembrar como estruturar uma aplicação React e como usar as
+bibliotecas que precisei. E mesmo assim, ainda tendo que assistir videos e re-ler as documentaçãos tanto do
+React Router e quanto do Axios, o que mais me tomou tempo foi definir um design básico para as páginas e aprender
+a usar os componentes do Chakra.
+
+Na verdade, o único motivo pelo qual tenho mais afinidade pelo Back-End é todo esse processo de estilização do Front.
+Talvez eu só não tenha encontrado ainda uma ferramenta que me agrade ou não tenha dedicado tempo suficiente estudando
+todas as propriedades do CSS mas sei que, se dedicar um pouco mais de tempo nisso, posso aprender a gostar de trabalhar
+com estilização tanto quanto amo trabalhar com o Back.
+
+De qualquer forma, consegui terminar uma versão básica do Front bem mais cedo do que esperava e voltei a trabalhar com
+o Back-End mais um pouco. Ainda tem várias coisas que gostaria de ter adicionado no projeto como um todo, mas estou bem
+feliz com o resultado. Me orgulho bastante na organização e legibilidade do meu código e creio que esse projeto não foi
+exceção.
+
+Mais uma vez, agradeço a oportunidade de mostrar meu trabalho e fico na expectativa de um feedback, seja sobre a
+oportunidade de começar minha jornada com vocês ou até mesmo sobre sugestões do que poderia ter feito no projeto mesmo.
+
+Atenciosamente,
+
+Gabriel Marques de Azevedo
