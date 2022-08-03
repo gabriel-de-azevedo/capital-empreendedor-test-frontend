@@ -3,7 +3,7 @@
 Capital Cards é uma aplicação desenvolvida usando a biblioteca React e tem como objetivo utilizar
 algumas das rotas desenvolvidas no projeto
 [Capital Cards API](https://github.com/gabriel-de-azevedo/capital-empreendedor-test-backend).
-Portanto, para que funcione propriamente, é necessário que essa API já esteja rodando antes de iniciá-la.
+Portanto, para que funcione propriamente, é necessário que a API já esteja rodando.
 Como esses os projetos estão em fase de desenvolvimento e ainda não foram hospedados, ambos precisarão ser
 executados localmente.
 
@@ -12,7 +12,7 @@ Por conta disso, recomendo ler a
 antes de prosseguir. Porém, o processo de execução é extremamente simples e será descrito logo abaixo.
 
 As páginas nessa aplicação foram desenvolvidas com o intuito de serem o mais simples possível, priorizando
-eficiência e rapidez no processo acima do design. Por isso a decisão de usar cards como o conceito central,
+eficiência e rapidez na sua criação acima do design. Por isso a decisão de usar cards como o conceito central,
 focando apenas em exibir os dados da API e cobrir as funcionalidades básicas. Além disso, a biblioteca de
 componentes
 [Chakra UI](https://chakra-ui.com/)
