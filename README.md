@@ -62,14 +62,14 @@ acabei precisando de menos tempo do que imaginava pra deixar tudo pronto.
 
 Como optei por fazer algo simples e usar o
 [Chakra UI](https://chakra-ui.com/)
-para a estilização, o que me restava era re-lembrar como estruturar uma aplicação React e como usar as
-bibliotecas que precisei. E mesmo assim, ainda tendo que assistir videos e re-ler as documentaçãos tanto do
+para a estilização, o que me restava era relembrar como estruturar uma aplicação React e como usar as
+bibliotecas que precisei. E mesmo assim, ainda tendo que assistir videos e reler as documentaçãos tanto do
 React Router e quanto do Axios, o que mais me tomou tempo foi definir um design básico para as páginas e aprender
 a usar os componentes do Chakra.
 
 Na verdade, o único motivo pelo qual tenho mais afinidade pelo Back-End é todo esse processo de estilização do Front.
 Talvez eu só não tenha encontrado ainda uma ferramenta que me agrade ou não tenha dedicado tempo suficiente estudando
-todas as propriedades do CSS mas sei que, se dedicar um pouco mais de tempo nisso, posso aprender a gostar de trabalhar
+todas as propriedades do CSS mas sei que, se dedicar um pouco mais de tempo nisso, posso acabar gostando de trabalhar
 com estilização tanto quanto amo trabalhar com o Back.
 
 De qualquer forma, consegui terminar uma versão básica do Front bem mais cedo do que esperava e voltei a trabalhar com
@@ -79,7 +79,3 @@ exceção.
 
 Mais uma vez, agradeço a oportunidade de mostrar meu trabalho e fico na expectativa de um feedback, seja sobre a
 oportunidade de começar minha jornada com vocês ou até mesmo sobre sugestões do que poderia ter feito no projeto mesmo.
-
-Atenciosamente,
-
-Gabriel Marques de Azevedo
